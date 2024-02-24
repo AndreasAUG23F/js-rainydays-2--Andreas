@@ -1,0 +1,39 @@
+h2 {
+    font-size: 20px;
+}
+
+header {
+    background-color: #6f6c6c;
+    padding: 10px;
+    font-size: x-large;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+.cart-image {
+    width: 100px;
+    height: 100px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+}
+
+.remove-button {
+    width: 100px!important;
+    height: 50px;
+
+}
+

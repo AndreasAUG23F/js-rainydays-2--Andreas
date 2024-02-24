@@ -1,0 +1,21 @@
+@import url(/css/header.css);
+@import url(/css/loader.css)
+
+
+/* .itemRow {
+    margin-bottom: 10px;
+} */
+
+.totalPrice {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.goToCartBtn {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+

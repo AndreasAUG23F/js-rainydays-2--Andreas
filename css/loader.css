@@ -1,0 +1,25 @@
+.loader {
+    width: 1em;
+    height: 1em;
+    border: 0.25em solid;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    color: var(--white);
+}
+
+@keyframes rotation {
+    0% {
+    transform: rotate(0deg);
+    }
+
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+main .loader {
+    font-size: 2em;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link rel="stylesheet" href="/css/checkout.css">
+    <script type="module" src="/javascript/pages/checkout.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/html/index.html">Home</a></li>
+                <li><a href="/html/jacket.html">Jacket</a></li>
+                <li><a href="/html/checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+        <h1>Checkout</h1>
+        
+    </header>
+    
+    <main>
+        <div class="left-container">
+            <div>
+                <h2>Cart</h2>
+                <ul id="cartItems">
+                    
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="right-container">
+            <h2>Summary</h2>
+            <div class="Summary-box">
+                <div class="priceBox">
+                    <p>Official price:</p>
+                    <p id="officialPrice"></p>
+                </div>
+                <div class="priceBox">
+                    <p>Discount:</p>
+                    <p id="discount"></p>
+                </div>
+                <div class="priceBox">
+                    </p>Subtotal:</p>
+                    <p id="subtotal"></p>
+                </div>
+            </div>
+            <form id="checkoutForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="text" id="email" required>
+    
+                <label for="phoneNumber">Phone:</label>
+                <input type="text" id="phoneNumber" required>
+    
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" required>
+    
+                <label for="expiryDate">Expiry Date:</label>
+                <input type="text" id="expiryDate" required>
+    
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" required>
+
+                <button id="submitBtn" type="submit"><a href="/html/checkout-success.html">Complete order</a></button>
+            </form>
+        </div>
+
+
+
+            
+
+    </main>
+</body>
+</html>

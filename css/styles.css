@@ -1,0 +1,199 @@
+@import url(/css/cart.css);
+@import url(/css/jacket.css);
+@import url(/css/loader.css)
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.collectionItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.product {
+    width: 300px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.linkToProduct {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #000;
+}
+
+
+
+li {
+    cursor: pointer;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Dropdown styling */
+details {
+    position: relative;
+}
+
+summary {
+    cursor: pointer;
+}
+
+.cart {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+    display: none; /* Skjuler handlekurv ved start */
+}
+
+.cart button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart button:hover {
+    background-color: #0056b3;
+}
+
+/* Viser handlekurv når summary er åpen */
+details[open] .cart {
+    display: block;
+}
+
+/* Dropdown styling */
+details {
+    position: relative;
+}
+
+summary {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+summary:hover {
+    background-color: #e0e0e0;
+}
+
+.gender-ul {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 200px; /* Juster bredden etter behov */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    list-style-type: none;
+    display: none;
+}
+
+.gender-ul li {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.gender-ul li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Viser menyen når summary er åpen */
+details[open] .gender-ul {
+    display: block;
+}
